@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For My Love</title>
+    <meta name="description" content="A small website made with love." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script defer src="assets/js/main.js"></script>
+  </head>
+  <body>
+    <div class="bg-glow"></div>
+    <div class="hearts" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="For My Love home">
+          <span class="brand-heart" aria-hidden="true">♥</span>
+          <span class="brand-text">For My Love</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <a class="nav-link is-active" href="index.html">Home</a>
+          <a class="nav-link" href="gallery.html">Gallery</a>
+          <a class="nav-link" href="reasons.html">Reasons</a>
+          <a class="nav-link" href="letters.html">Letters</a>
+          <a class="nav-link" href="surprise.html">Surprise</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="hero-kicker">For the most</p>
+            <h1 class="hero-title">
+              Amazing <span class="accent-script">Girl</span>
+            </h1>
+            <p class="hero-subtitle">
+              You make my world brighter just by being in it.<br />
+              Thank you for being mine.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="letters.html">I Love You ♥</a>
+              <a class="btn btn-ghost" href="#reasons">See reasons</a>
+            </div>
+          </div>
+
+          <div class="hero-art" role="img" aria-label="A couple looking at the sunset">
+            <img src="assets/img/hero.svg" alt="" />
+          </div>
+        </div>
+
+        <a class="scroll-hint" href="#reasons" aria-label="Scroll to reasons">
+          <span class="scroll-dot" aria-hidden="true"></span>
+        </a>
+      </section>
+
+      <section id="reasons" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title">
+              Reasons Why You're <span class="accent-script">So Special</span> To Me
+            </h2>
+            <p class="section-subtitle">A few little things that make you, you.</p>
+          </div>
+
+          <div class="cards">
+            <article class="card">
+              <div class="card-icon" aria-hidden="true">☺</div>
+              <h3 class="card-title">You make me happy</h3>
+              <p class="card-text">Your smile is my favorite thing.</p>
+            </article>
+            <article class="card">
+              <div class="card-icon" aria-hidden="true">★</div>
+              <h3 class="card-title">You understand me</h3>
+              <p class="card-text">You always know how to comfort me.</p>
+            </article>
+            <article class="card">
+              <div class="card-icon" aria-hidden="true">✿</div>
+              <h3 class="card-title">You're so beautiful</h3>
+              <p class="card-text">Inside and out, always.</p>
+            </article>
+            <article class="card">
+              <div class="card-icon" aria-hidden="true">☾</div>
+              <h3 class="card-title">You're my peace</h3>
+              <p class="card-text">With you, I feel safe and complete.</p>
+            </article>
+            <article class="card">
+              <div class="card-icon" aria-hidden="true">♥</div>
+              <h3 class="card-title">You're my forever</h3>
+              <p class="card-text">I can’t wait for more memories with you.</p>
+            </article>
+          </div>
+
+          <div class="center">
+            <a class="btn btn-primary" href="reasons.html">There are so many more… ♥</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="footer-text">Made with love • <span id="year"></span></p>
+        <a class="footer-link" href="gallery.html">Our Memories</a>
+      </div>
+    </footer>
+  </body>
+</html>
+

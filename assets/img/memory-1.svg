@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Memory placeholder 1">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ff4f87" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.06"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="#120814"/>
+  <rect x="70" y="70" width="1060" height="660" rx="44" fill="url(#g)" stroke="#ffffff" stroke-opacity="0.12" stroke-width="4"/>
+  <g fill="#ffffff" fill-opacity="0.85">
+    <text x="120" y="210" font-size="72" font-family="Inter, Arial, sans-serif">Memory 1</text>
+  </g>
+  <g transform="translate(860 510)">
+    <path d="M50 20 C22 -6, -22 -6, -50 20 C-82 52, -78 106, -50 134 C-18 168, 0 182, 0 182 C0 182, 18 168, 50 134 C78 106, 82 52, 50 20Z" fill="#ff4f87" fill-opacity="0.7"/>
+  </g>
+</svg>
+
