@@ -1,0 +1,14 @@
+{
+  "name": "memories",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static memories site served by a tiny Node server for Hostinger Node.js hosting.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
+
